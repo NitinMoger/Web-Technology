@@ -1,0 +1,102 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./lion.jpg");
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin-left: 1000px;
+    margin-top:100px;
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+
+    background-color: #15b6f5;
+    color: #fff;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.forget{
+    color:#0f4994;
+    font-size: 25px;
+}
+
+
+.text{
+    color: #1877f2;
+    margin-left: 450px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -430px;
+
+}
+.paragraph{
+    margin-left: 460px;
+    margin-top: -40px;
+    font-size: 29px;
+}
+.create{
+    color: rgb(214, 115, 115);
+    font-weight: bolder;
+    font-size:20px;
+}
+
+.newAccount{
+ width: 300px;
+ height: 40px;
+ padding-left: 60px;
+ padding-right: 40px;
+ background-color: green;
+ border-radius: 3px;
+ font-size: 30px;
+ color: #fff;
+}
+
+.navBar{
+    background-color: black;
+display: flex;
+}
+ul{
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
+li{
+    color: whitesmoke;
+    padding: 20px;
+}
+.header{
+    display: flex;
+}
+
+button:hover{
+ color:red;
+}
+</style>
