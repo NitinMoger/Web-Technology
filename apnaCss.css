@@ -1,0 +1,22 @@
+
+.navBar{
+
+    color: red;
+    background-color: blue;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: trim 10px;
+    margin-right: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,70 @@
+
+.font{
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    opacity: 20px;
+}
+.span{
+    position: relative;
+    color: red;
+    bottom: -176px;
+    left: 121px;
+}
+.transform{
+    top: 344px;
+    position: relative;
+    width: 129px;
+    height: 100px;
+    left: 95px;
+    background-color: violet;
+    transform: rotate(40deg);
+}
+.translate{
+    position: relative;
+    background-color: black;
+    transform: rotate(100px,400px);
+    top: 587px;
+    width: 150px;
+    height: 100px;
+    left: 100px;
+}
+.sclae{
+    position: relative;
+    left: 514px;
+    top:40px;
+    height:50px;
+    width:20px;
+    background-color: blue;
+    transform: scale(6,2);
+}
+
+.scalex{
+    position: relative;
+    left: 514px;
+    top: 108px;
+    height: 117px;
+    width: 57px;
+    background-color: blue;
+    transform: skew(26deg,368deg);
+}
+
+.skewX{
+    position: relative;
+    left: 514px;
+    top: 208px;
+    height: 117px;
+    width: 57px;
+    background-color: blue;
+    transform: skew(20deg);
+}
+
+.skewY{
+    position: relative;
+    left: 695px;
+    top: 93px;
+    height: 117px;
+    width: 57px;
+    background-color: rgb(11, 11, 79);
+    transform: skew(20deg);
+}

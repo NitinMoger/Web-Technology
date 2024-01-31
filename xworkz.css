@@ -1,0 +1,11 @@
+*{
+    color: aliceblue;
+}
+.navBar{
+    color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:black;
+        padding: 10px;
+}
