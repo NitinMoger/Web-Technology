@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./login.js"></script>
+</head>
+
+<body>
+    <form name="registration">
+        <span  style="color: blueviolet; margin: 2;" id="fnameError"></span>
+        <span style="color: rgb(213, 239, 16); margin: 2;" id="lnameError"></span>
+        <span style="color:red; margin: 2;" id="passwordError"></span>
+    <div>
+        <label>First Name</label>
+        <input type="text" id="fname" onblur="fnameValidation()" placeholder="FirstNAme">
+    </div>
+    <div>
+        <label>Last Name</label>
+        <input type="text" id="lname" onblur="lastnameValidation()" placeholder="LastNAme">
+    </div>
+    <div>
+        <label>Working</label>
+        <span>Yes<input type="radio" name="Working" value="yes"/> <span>No <input type="radio" name="Working" value="no"></span></span>
+    </div>
+    <div>
+        <label>password</label>
+        <input type="text" id="password" onblur="passwordValidation()" placeholder="password">
+    </div>
+    <div>
+        <input type="button"  id="button" onclick="functionClick()" value="submit">
+        <input type="button" value="clear">
+    </div>
+</form>
+</body>
+
+</html>

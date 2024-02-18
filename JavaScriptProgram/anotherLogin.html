@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="./anotherLoginRun.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            background-color: #e6d7d7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #eadada;
+            border-radius: 4px;
+        }
+        button,
+        input[type="reset"],
+        input[type="submit"] {
+            background-color: #e2bb45;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            margin: 2px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover {
+            background-color: #b0b3f5;
+        }
+        a {
+        
+            color: #084383;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <form>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="fname" onblur="fnameValidation()" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lname" onblur="lastnameValidation()" name="lastName" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="Select">select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Address:</label>
+        <input id="address" name="address" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" onblur="passwordValidation()" name="password" required>
+
+        <button type="submit"   id="button" onclick="functionClick()" value="submit"></button>
+        <input type="reset"  value="Clear">
+
+        <p><a href="#">Forgot Password?</a></p>
+    </form>
+
+</body>
+</html>
